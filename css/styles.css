@@ -1,0 +1,54 @@
+body {
+	background: url(https://wallpapercave.com/wp/qKtG6P8.png);
+    background-opacity: 0.5;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    color:#946946FF;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 0.2em;
+    text-shadow: 2px 4px 2px #aaaaaa;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+    cursor: pointer;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+
+@media(max-width: 427px){
+    input {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+
+}
